@@ -15,7 +15,13 @@ class CustomerController {
     def show(Long id)
     {
         log.error("SHOWING ")
-        respond customerService.get(id)
+        def customer = customerService.get(id)
+        render(view: "show", model: [customer: customer])
+    }
+
+    def search()
+    {
+        render(view: "search")
     }
 
 }

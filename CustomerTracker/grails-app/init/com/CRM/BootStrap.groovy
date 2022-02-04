@@ -19,20 +19,20 @@ class BootStrap {
     {
 
         Customer c = new Customer();
-        c.setFirstName("test")
-        c.setLastName("test")
+        c.setFirstName("first")
+        c.setLastName("last")
         c.setDateOfBirth(LocalDate.now())
         c.setDateOfRegistration(LocalDate.now())
 
         Customer c2 = new Customer();
-        c2.setFirstName("test 2")
-        c2.setLastName("test 2 ")
+        c2.setFirstName("first 2")
+        c2.setLastName("last 2 ")
         c2.setDateOfBirth(LocalDate.now())
         c2.setDateOfRegistration(LocalDate.now())
 
         Customer c3 = new Customer();
-        c3.setFirstName("test 3")
-        c3.setLastName("test 3")
+        c3.setFirstName("first 3")
+        c3.setLastName("last 3")
         c3.setDateOfBirth(LocalDate.now())
         c3.setDateOfRegistration(LocalDate.now())
 
